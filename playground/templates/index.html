@@ -1,0 +1,27 @@
+{% load static %} 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="{% static 'css/style.css'  %}">
+</head>
+<body>
+    <form action="https://www.google.com/search" method="GET" target="_self" class="search-bar">
+        <div class="search">
+            <div class="icon"><img src="{% static 'images/purplesearch.png' %}"></div>
+            <div class="input">
+                <input type="text" name="q" placeholder="Search" id="mysearch">
+            </div>
+            
+            <span class="clear" onclick="document.getElementById('mysearch').value=''"></span>
+            
+        </div>
+        
+    </form>
+    <script src="{% static 'js/script.js' %}"></script>
+</body>
+</html>
