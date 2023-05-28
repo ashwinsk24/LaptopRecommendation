@@ -4,4 +4,4 @@ Team Members
 - Ashwin Sivasankaran
 - Shilu VP
 - Anirudh V Kumar
-- Jyothish
+- Jyothish T R
